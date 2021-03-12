@@ -921,6 +921,8 @@ footer {
   top: 50%;
   left: 14px;
   transform: translateY(-50%);
+  width: 16px;
+  height: 15px;
 
   border: 2px solid var(--title-color);
   border-radius: 4px;
