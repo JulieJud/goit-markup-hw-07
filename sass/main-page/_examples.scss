@@ -33,6 +33,9 @@
   margin: 0;
   width: 100%;
   height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   text-transform: uppercase;
   font-weight: 700;
@@ -40,10 +43,4 @@
   line-height: 1.14;
   background-color: var(--poluprozracnyj-seryj);
   color: var(--primary-bg-color);
-}
-
-.examples__text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

@@ -11,41 +11,41 @@
     ),
     url(../images/hero.jpg);
   background-color: var(--hero-color);
-}
 
-.hero__title {
-  color: var(--primary-bg-color);
-  text-transform: uppercase;
+  &__title {
+    color: var(--primary-bg-color);
+    text-transform: uppercase;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 
-  letter-spacing: 0.06em;
-  margin-top: 0;
-  margin-bottom: 30px;
-}
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
 
-.hero__button {
-  color: var(--primary-bg-color);
-  background-color: var(--accent-color);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
+  &__button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
 
-  letter-spacing: 0.06em;
-  display: block;
-  padding-top: 10px;
-  padding-left: auto;
-  padding-bottom: 10px;
-  padding-right: auto;
-  width: 200px;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
+    letter-spacing: 0.06em;
+    display: block;
+    padding-top: 10px;
+    padding-left: auto;
+    padding-bottom: 10px;
+    padding-right: auto;
+    width: 200px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 
-  border: transparent;
-  transition: background-color 250ms var(--cubic), color 250ms var(--cubic),
-    box-shadow 250ms var(--cubic);
+    border: transparent;
+    transition: background-color 250ms var(--cubic), color 250ms var(--cubic),
+      box-shadow 250ms var(--cubic);
+  }
 }
