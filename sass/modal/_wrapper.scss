@@ -1,14 +1,14 @@
 .wrapper {
   position: relative;
-}
 
-.wrapper__icon {
-  position: absolute;
-  left: 12px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
+  &__icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .wrapper__input {

@@ -1,32 +1,21 @@
-.submit-form__placeholder {
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.25;
-  padding-left: 15px;
-  color: var(--adressf-color);
-}
-
-.submit-button__icon-send {
-  position: absolute;
-  right: 28px;
-
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.submit-form__placeholder {
-  background-color: var(--hero-color);
-  min-width: 358px;
-  min-height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-
-  margin-right: 15px;
-}
-
 .submit-form {
   display: flex;
   margin-top: 20px;
+
+  &__placeholder {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    padding-left: 15px;
+    color: var(--adressf-color);
+    background-color: var(--hero-color);
+    min-width: 358px;
+    min-height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    margin-right: 15px;
+  }
 }
 
 .submit-button {
@@ -43,4 +32,11 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+
+  &__icon-send {
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

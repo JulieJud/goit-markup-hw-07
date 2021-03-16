@@ -2,12 +2,12 @@
   background-color: var(--hero-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.page-footer__container {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  &__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
 }
 
 .connect-foother {
