@@ -15,10 +15,15 @@
 
   transform: translateY(100%);
   transition: transform 250ms var(--cubic);
-}
 
-.overlay__text {
-  font-size: 18px;
-  line-height: 1, 5;
-  color: var(--primary-bg-color);
+  &__text {
+    font-size: 18px;
+    line-height: 1, 5;
+    color: var(--primary-bg-color);
+  }
+
+  .portfolio__link:hover &,
+  .portfolio__link:focus & {
+    transform: translateY(0);
+  }
 }
