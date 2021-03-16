@@ -1,1 +1,31 @@
-@import 'variables';
+@import 'utils/variables';
+@import 'generaly-components/container';
+@import 'generaly-components/list';
+@import 'generaly-components/page-header';
+@import 'generaly-components/navigation';
+@import 'generaly-components/adress';
+@import 'generaly-components/logo';
+@import 'generaly-components/section';
+@import 'generaly-components/page-fother';
+@import 'generaly-components/social-icon';
+@import 'generaly-components/submit';
+
+@import 'main-page/hero';
+@import 'main-page/advantage';
+@import 'main-page/examples';
+@import 'main-page/members';
+@import 'main-page/clients';
+
+@import 'portfolio/overlay';
+@import 'portfolio/portfolio-button';
+@import 'portfolio/portfolio-list';
+@import 'portfolio/portfolio-cards';
+@import 'portfolio/portfolio-vishidden';
+@import 'portfolio/product-thumb';
+
+@import 'modal/backdrop';
+@import 'modal/modal-window';
+@import 'modal/form';
+@import 'modal/submit-modal';
+@import 'modal/checkbox';
+@import 'modal/wrapper';

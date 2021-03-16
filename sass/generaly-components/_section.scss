@@ -1,0 +1,13 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section--with-bgcolor {
+  background-color: var(--bg-secondary-color);
+}
+
+.section--no-padding-top {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
