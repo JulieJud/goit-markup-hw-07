@@ -9,17 +9,19 @@
     width: 18px;
     height: 18px;
   }
+
+  &__input {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--modal-border);
+    min-width: 448px;
+    min-height: 40px;
+    padding-left: 40px;
+    transition: border 250ms var(--cubic);
+  }
 }
 
 .wrapper__input {
-  width: 100%;
-  border-radius: 4px;
-  border: 1px solid var(--modal-border);
-  min-width: 448px;
-  min-height: 40px;
-  padding-left: 40px;
-  transition: border 250ms var(--cubic);
-
   &:focus {
     border: 1px solid var(--accent-color);
     outline: none;

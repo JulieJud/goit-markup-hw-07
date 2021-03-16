@@ -808,11 +808,6 @@ img {
 }
 
 .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.5);
-          transform: translate(-50%, -50%) scale(0.5);
-}
-
-.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -829,6 +824,15 @@ img {
   transition: -webkit-transform 250ms var(--cubic);
   transition: transform 250ms var(--cubic);
   transition: transform 250ms var(--cubic), -webkit-transform 250ms var(--cubic);
+}
+
+.modal__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 12px;
 }
 
 .modal__button--closed {
@@ -857,15 +861,6 @@ img {
 
 .modal__button--closed:hover, .modal__button--closed:focus {
   fill: var(--accent-color);
-}
-
-.modal__name {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  color: var(--title-color);
-  margin-bottom: 12px;
 }
 
 .form {
@@ -966,14 +961,6 @@ img {
   margin-bottom: 30px;
 }
 
-.checkbox__text--agree {
-  font-family: inherit;
-  font-size: 14px;
-  line-height: 1.714;
-  margin-left: 9px;
-  margin-right: 2px;
-}
-
 .checkbox__input {
   position: absolute;
   -webkit-appearance: none;
@@ -981,14 +968,6 @@ img {
   appearance: none;
   -webkit-transition: border 250ms var(--cubic);
   transition: border 250ms var(--cubic);
-}
-
-.checkbox__input:checked + .checkbox__icon {
-  border: none;
-}
-
-.checkbox__input:checked + .checkbox__icon use {
-  display: block;
 }
 
 .checkbox__icon {
@@ -1004,10 +983,6 @@ img {
   cursor: pointer;
 }
 
-.checkbox__icon use {
-  display: none;
-}
-
 .checkbox__agreement {
   color: var(--accent-color);
   margin-left: 2px;
@@ -1015,6 +990,26 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
+}
+
+.checkbox__text--agree {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.714;
+  margin-left: 9px;
+  margin-right: 2px;
+}
+
+.checkbox__input:checked + .checkbox__icon {
+  border: none;
+}
+
+.checkbox__input:checked + .checkbox__icon use {
+  display: block;
+}
+
+.checkbox__icon use {
+  display: none;
 }
 
 .wrapper {

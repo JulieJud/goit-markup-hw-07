@@ -1,8 +1,4 @@
 .modal {
-  transform: translate(-50%, -50%) scale(0.5);
-}
-
-.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -14,8 +10,16 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
-
   transition: transform 250ms var(--cubic);
+
+  &__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 12px;
+  }
 }
 
 .modal__button--closed {
@@ -38,13 +42,4 @@
   &:focus {
     fill: var(--accent-color);
   }
-}
-
-.modal__name {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  color: var(--title-color);
-  margin-bottom: 12px;
 }
