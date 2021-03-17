@@ -1,12 +1,4 @@
-html {
-  box-sizing: border-box;
-}
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 :root {
   --primary-text-color: #757575;
@@ -30,28 +22,4 @@ html {
   --closed-border: rgba(0, 0, 0, 0.1);
   --modal-border: rgba(33, 33, 33, 0.2);
   --placeholder: rgba(117, 117, 117, 0.5);
-}
-
-body {
-  color: var(--primary-text-color);
-
-  font-family: roboto, sans-serif;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
